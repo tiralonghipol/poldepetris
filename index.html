@@ -13,9 +13,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
 </head>
-
 <body class="is-preload">
 
 	<!-- Wrapper -->
@@ -24,7 +24,7 @@
 		<!-- Header -->
 		<header id="header">
 			<div class="logo">
-				<span class="image main"><img src="images/dro0.png" alt="drone image" /></span>
+				<span class="image main"><img src="images/drone.png" alt="drone image" /></span>
 			</div>
 			<div class="content">
 				<div class="inner">
@@ -36,35 +36,20 @@
 				<ul>
 					<li><a href="#about">About</a></li>
 					<li><a href="#resume">Resume</a></li>
-					<li><a href="#projects">Projects</a></li>
+					<li><a href="#publications">Work</a></li>
 					<li><a href="#contact">Contacts</a></li>
-					<!-- <li><a href="#drawings">drawings</a></li> -->
-					<!--<li><a href="#elements">Elements</a></li>-->
+					<!-- <li><a href="#projects">Projects</a></li> -->
 				</ul>
 			</nav>
 		</header>
-
+		
 		<!-- Main -->
 		<div id="main">
-
+			
 			<!-- About -->
 			<article id="about">
 				<h2 class="major">About</h2>
-				<span class="image main"><img src="images/pol_bw.jpg" alt="pol_bw" /></span>
-				<p> Hei! My name is Paolo. <br> 
-					I was born in Trieste (TS), a small city in the North-East of
-					Italy, where I attended my Primary, Middle and High school.
-					I then moved to Torino (TO) where I got my Bachelor (Telecommunications Engineering) and Master Degree (Mechatronic Engineering),
-					both at the Politecnico di Torino.<br>
-					I'm currently in love with drones and robotics.
-					In 2017, while studying, I worked on the design and implementation algorithms of an  autonomous UAV for a local company.
-					After that, I succesfully completed the Master ICT and Advanced Projecting (2 years) at the University of Torino, to improve my skills.
-					In my free time I study electric guitar, sometimes I write songs. I also do a lot of physical activities. <br>
-					I am currently working with Dr. Kostas Alexis at the Autonomous Robots Lab (<a
-						href="https://www.autonomousrobotslab.com/" target="_blank"><b>ARL</b>) </a>. 
-					After one year spent at the University of Nevada, Reno (USA), where I got my second Master (Computer Science),
-					I moved to Trondheim (NO), as a PhD candidate at NTNU.
-				</p> Check out my projects <a href="#projects"><b>here</b></a>.</p>
+				<div id="includeAbout"></div>
 			</article>
 
 			<!-- Resume -->
@@ -75,71 +60,15 @@
 			</article>
 
 			<!-- Projects -->
-			<article id="projects">
+			<!-- <article id="projects">
 				<h2 class="major">Projects</h2>
-				
-				<b>RMF-Owl: A Collision-Tolerant Flying Robot for Autonomous Subterranean Exploration</b>
-				<span class="image main"><img src="images/eagle.png" alt="" /></span>
-				<p> Presented at the International Conference on Unmanned Aircraft Systems (ICUAS2022)
-				<p> Video accompanying the paper ​ 
-					<a href="https://www.youtube.com/watch?v=F9udtbZFV-Q&t=28s" target="_blank"><b> HERE </b></a>.</p>
-				
-				<hr width="100%" align="center">
-						
-				<b>Collision-tolerant Navigation in Confined Environments</b>
-				<span class="image main"><img src="images/rmf_views.png" alt="" /></span>
-				<p> This work presents the design and autonomous navigation policy of the Resilient Micro Flyer, a new type of
-					collision-tolerant robot tailored to flying through extremely confined environments and manhole-sized tubes.
-					The robot maintains a low weight (<500g) and implements a combined rigid-compliant design through the integration of
-					elastic flaps around its stiff collision-tolerant frame.
-				<p> Video accompanying the paper submitted to IEEE International Conference on Robotics and Automation (ICRA), May 30-June 5, 2021, Xi'an China​ 
-					<a href="https://www.youtube.com/watch?v=LcsuX1bwI_8" target="_blank"><b> HERE </b></a>.</p>
+					<div id="includeProjects"></div>
+			</article> -->
 
-				<hr width="100%" align="center">
-
-				<b>RMF (Resilient Micro Flyer)</b>
-				<span class="image main"><img src="images/rmf_balsa.png" alt="" /></span>
-				<p>My current research topic involves the design, development and implementation of autonomous navigation algorithms of 
-					a new type of collision-tolerant aerial robot, tailored for traversing and searching within highly confined environments, including manhole-sized tubes.
-				<p> Video accompanying the paper submitted to the International Symposium on Safety, Security and Rescue Robotics (SSRR), Nov 4-6, 2020, ABUDHABI , UAE
-					<a href="https://youtu.be/v5217z19NRI" target="_blank"><b> HERE </b></a>.</p>
-
-				<hr width="100%" align="center">
-
-				<b>ARS (Autonomous Remote Sensing)</b>
-				<span class="image main"><img src="images/ars.png" alt="" /></span>
-				<p>The main goal of the ARS (Autonomous Remote Sensing) project was to design and prototype a drone
-					capable of carrying out autonomous inspection of confined spaces, in particular of tunnels.
-					Exploiting the concept of Data Muling, the UAV was able to navigate inside a GPS-denied environment
-					without any help from the operator, collecting data from pre-disposed BLE (Bluetooth Low Energy)
-					modules and, in post-processing, create a 3D model of the inspected environment with an average
-					error of
-					~1mm.
-				<p> Link to the video summarizing the project (italian narration) 
-					<a href="https://www.youtube.com/watch?v=o9nM3LCu7jg&t=2s" target="_blank"><b> HERE </b></a>.</p>
-
-				<hr width="100%" align="center">
-
-				<b>Autonomous Indoor UAV Navigation & Mapping</b>
-				<span class="image main"><img src="images/pic05.png" alt="" /></span>
-				<p>A project for indoor, unknown, GPS-denied environment navigation of UAVs.
-					The main used sensors are a 2D Lidar laser scanner range finder and a Pixhawk flight controller.
-					All computation are performed onboard.
-				<p> Link to the video <a href="https://www.youtube.com/watch?v=joavYR-6Gsw"
-						target="_blank"><b> HERE </b></a>.</p>
-
-				<hr width="100%" align="center">
-
-				<b>Arduino mini CNC plotter with recycled CD/DVD Drives</b>
-				<span class="image main"><img src="images/CNC.png" alt="" /></span>
-				<p>A simple mini CNC plotter realized with some old CD Drives found in the basement.
-					I initially used <a href="http://www.ardumotive.com/new-cnc-plotter.html" target="_blank"><b>this
-							guide</b></a> as a reference, then I implemented my own configuration.
-					You can see my tiny printer in action <a
-						href="https://www.youtube.com/watch?v=q4f_1pPVLEE&feature=youtu.be"
-						target="_blank"><b> HERE </b>.</a>
-
-
+			<!-- Publications -->
+			<article id="publications">
+				<h2 class="major">Publications</h2>
+				<div id="includePublications"></div>
 			</article>
 
 			<!-- Contact -->
@@ -147,22 +76,19 @@
 				<h2 class="major">Contacts</h2>
 				<form method="post" action="#">
 					<p>
-						<!-- <a href="mailto:tiralonghipol@gmail.com" target="_top"> <img src="images/mail.png" height="90" -->
-							<!-- <a href="https://www.linkedin.com/in/poldepetris/" target="_blank"><img src="images/linkeding.png" height="90" width="90"></a> -->
+						<a href="https://www.linkedin.com/in/poldepetris/" target="_blank"><img src="images/linkedin.png" height="90" width="90"></a>
 						<a href="https://www.youtube.com/channel/UCyLQhgAg1LJo_zC-inOMLuQ/featured?view_as=subscriber" target="_blank"> <img src="images/uTube.png" height="90" width="90"> </a>
 						<a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tiralonghipol@gmail.com" target="_blank"> <img src="images/mail.png" height="90" width="90"> </a>
 						<a href="https://github.com/tiralonghipol?tab=repositories" target="_blank"><img src="images/github.png" height="90" width="90"></a>
-						<a href="skype:paolo.de.petris?userinfo"><img src="images/skype.png" height="90" width="90"></a>
 					</p>
 				</form>
 			</article>
-
 
 		</div>
 
 		<!-- Footer -->
 		<footer id="footer">
-			<p class="copyright">&copy; paolo de petris. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+			<p class="copyright">&copy; paolo de petris - <a href="https://html5up.net">HTML5 UP</a>.</p>
 		</footer>
 
 	</div>
@@ -176,7 +102,9 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<script> $(function(){$("#includeAbout").load("about.html");}); </script> 
+	<script> $(function(){$("#includePublications").load("publications.html");}); </script> 
+	<script> $(function(){$("#includeProjects").load("projects.html");}); </script> 
 </body>
 
 </html>
